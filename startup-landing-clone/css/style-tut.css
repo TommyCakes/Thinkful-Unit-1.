@@ -18,6 +18,8 @@ body {
   background-color: #FFFFFF;
   height: 4.5em;
   width:100%;
+  position:fixed;
+  z-index: 9999;
 
 }
 .top-navigation > .content {
@@ -105,25 +107,35 @@ margin-top:-25px;
   cursor:hand;
   background-color: #d9400e;
 }
-.three-icons {
+.cases {
   background-color: white;
   background-size:cover;
-  height:160px;
+  padding-bottom:5rem;
 
 }
-.three-icons > h1 {
+.cases .content {
+  padding:none;
   text-align:center;
+  color: ##1d1e21;
+}
+.cases h2 {
   font-weight: 300;
   line-height: 1.2em;
   font-size:39px;
-  
+}
+.cases .devices > li {
+
+  width: 33.33333333%;
+  float:left;
+  display: inline-block;
+}
+.cases .devices h3 {
+  font-weight: 400;
+  font-size: 1.5em;
+  margin: 2.5em 0px 1.8em;
 }
 
-img {
-  margin: 0;
-  
-  
-}
+
 
 
 
